@@ -1,0 +1,74 @@
+body {
+    background-color: #616160;
+    display: flex;
+    justify-content: center;
+    background-image: url("images/features/bg.jpg");
+    background-size: cover;
+    margin-bottom: 15em;
+}
+body main{ width: 30em;}
+body p { color: #fff; font-family: 'Arvo', serif;  text-shadow: 1px 1px #ff0000;}
+body p:hover{ font-size: 3em; color: red;}
+body a { border: 2px solid #fff; padding: 1em; color: #fff; text-decoration: none; position: relative; top: 1em; z-index: 10;}
+img:first-child {
+    position: fixed;
+    left: -17em;
+    top: 0;
+    transition: 2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0,1.63,.96,-0.38);
+}
+img:first-child:hover{left: 5em;}
+img:nth-child(3) { position: fixed; right: 0; top: 0; }
+img:nth-child(4) { position: fixed; bottom: 0; width: 100%; }
+img:nth-child(5) {
+    position: fixed;
+    top: 10em;
+    height: 10em;
+    width: 15em;
+    right: 4em;
+    transition: 3s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(.44,.13,.05,.83);
+}
+img:nth-child(5):hover{ transform: rotate(720deg);}
+img:nth-child(6) {
+    position: fixed;
+    bottom: 4em;
+    height: 10em;
+    width: 15em;
+    right: 1em;
+    transition: 2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(.44,.13,.05,.83);
+}
+
+  /* Media queries */
+
+  @media (max-width:62em) {
+
+    body main { width: 25em; }
+    img:nth-child(3) { width: 25%; }
+    img:nth-child(3) { width: 25%; }
+    img:nth-child(5){ display: none;}
+
+  }
+  @media (max-width:50em) {
+
+    body p:hover{ font-size: 1.3em;}
+    img:first-child{ left: -20em;}
+    img:nth-child(6){ width: 10em; height: 7em; right: 0em;}
+    img:first-child:hover{left: 3em;}
+
+  }
+
+  @media (max-width:30em) {
+
+    img:nth-child(3) { width: 25%; display: none; }
+    body p{ text-align: right;}
+    body p:hover{ font-size: 1.1em;}
+    img:first-child:hover{left: -7em;}
+    img:first-child:active{left: 2em;}
+    img:first-child { left: -10em; width: 17em; }
+
+  }

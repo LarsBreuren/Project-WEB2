@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <Title>Verhaal NS</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Lees nu uw favorieten verhalen, overal, altijd.">
+  <meta name="keywords" content="NS, Verhalen, Mijn NS, Stories">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="login">
+  <header>
+    <a href="index.html"><img src="https://www.ns.nl/static/generic/2.34.0/images/nslogo.svg" alt="Logo NS"></a>
+  </header>
+
+  <section>
+    <h1> Welkom bij de NS verhalen website </h1>
+    <main>
+      <form action="index.html">
+        <fieldset>
+          <legend> Inloggen </legend>
+          <label><span>Email adres:</span>
+            <input type="email" name="email" title="Email adres" required>
+          </label>
+          <label><span>Wachtwoord:</span>
+            <input type="password" name="password" title="Wachtwoord" required>
+          </label>
+          <label><span>Ik ben nieuw</span>
+            <input type="checkbox" name="nieuw" id="check"> </label>
+          <label class="" id="bevestig"><span>Bevestig Wachtwoord:</span>
+            <input type="password" name="password" title="Wachtwoord">
+          </label>
+
+          <input type="submit" value="Inloggen" class="submit">
+        </fieldset>
+      </form>
+    </main>
+  </section>
+  <script src="js/form.js"></script>
+</body>
+
+</html>
