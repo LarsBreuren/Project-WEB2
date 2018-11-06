@@ -24,20 +24,22 @@ De div id die gebruikt wordt is voor de favorieten functie, op deze manier kan
 de javascript de verhalen onderscheiden.
 
 Code samples:
-
-<article>
+```
+   <article>
       <img src="images/verhalen/stoned.jpg" alt="Droom verhaal">
       <div id="2"></div>
       <h3> Presentator die ten onrechte denkt aansluiting te hebben gevonden bij ‘de kids </h3>
       <p>Meegaan met de jeugd </p>
       <a href="verhaal.html">&gt; Lees dit verhaal</a>
-    </article>
-
-    #index section:nth-child(5) {
-        display: flex;
-        margin-bottom: 7em;
-    }
-
+   </article>
+```
+```
+ #index section:nth-child(5) {
+   display: flex;
+   margin-bottom: 7em;
+}
+```
+```
   #index article {
     width: 25%;
     margin: 0 1em;
@@ -46,7 +48,7 @@ Code samples:
     position: relative;
     padding: 0 1em 3em 1em;
 }
-
+```
 
 ## Versies
 
