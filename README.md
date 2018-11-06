@@ -53,7 +53,7 @@ Code samples:
 ## Versies
 
 * 0.1.1
-    * Verhaal beroemd ontwikkeld
+    * Verhaal beroemd ontwikkeld/hovers + focus
 * 0.1.0
     * Resonsive design
 * 0.0.1
